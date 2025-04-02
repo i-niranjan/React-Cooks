@@ -8,7 +8,7 @@ export default function Dashboard() {
     <>
       <Navbar />
       <Homehero />
-      <Footer />
+      <Footer position="absolute" />
     </>
   );
 }

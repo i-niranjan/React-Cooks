@@ -5,8 +5,6 @@ import { Routes, Route } from "react-router";
 import { ThemeProvider } from "./components/Themeprovider";
 import UseState from "./pages/hooks/UseState";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <ThemeProvider>

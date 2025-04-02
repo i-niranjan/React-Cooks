@@ -63,14 +63,12 @@ export default function Navbar() {
   return (
     <>
       <nav className="w-full border-b">
-        <div className="w-full flex justify-between mx-auto container p-4 max-w-screen-xl ">
+        <div className="w-full flex justify-between mx-auto container p-2 max-w-screen-xl ">
           <div>
             <NavigationMenu>
-              <NavigationMenuList className="flex gap-2 md:gap-8 p-1 md:p-2">
+              <NavigationMenuList className="flex gap-2 md:gap-8 p-1 ">
                 <SparklesText
-                  className={
-                    "text-sm md:text-lg font-normal border-2 p-2 rounded-lg"
-                  }
+                  className={"text-sm md:text-lg font-normal"}
                   text="React Cooks"
                   sparklesCount="4"
                 />
@@ -99,14 +97,14 @@ export default function Navbar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <NavigationMenuLink className="text-sm md:text-lg" href="/">
+                  <NavigationMenuLink className="text-sm " href="/">
                     Meet The Chef
                   </NavigationMenuLink>
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
           </div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 content-center items-center">
             <Button variant={"outline"} size="icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
